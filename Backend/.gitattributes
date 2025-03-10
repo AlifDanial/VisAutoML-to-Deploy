@@ -1,0 +1,47 @@
+# Mark large files as binary to avoid diff issues
+*.joblib binary
+*.pkl binary
+*.h5 binary
+*.hdf5 binary
+*.model binary
+*.bin binary
+*.csv binary
+*.zip binary
+*.tar.gz binary
+*.gz binary
+*.rar binary
+*.7z binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp4 binary
+*.webp binary
+*.webm binary
+*.mov binary
+*.avi binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.flac binary
+*.tiff binary
+*.tif binary
+*.bmp binary
+*.ico binary
+*.svg binary
+*.psd binary
+*.ai binary
+*.eps binary
+*.indd binary
+*.raw binary
+*.cr2 binary
+*.nef binary
+*.orf binary
+*.sr2 binary
+
+# Exclude large directories from git diff
+machine_learning/static/** -diff
+database/** -diff
+models/** -diff
+img/** -diff 
